@@ -1,13 +1,13 @@
 <p align="center">
-  <img width="600" src="https://raw.githubusercontent.com/fpgmaas/cookiecutter-poetry/main/docs/static/cookiecutter.svg">
+  <img width="600" src="https://raw.githubusercontent.com/iamgrewal/cookiecutter-poetry/main/docs/static/cookiecutter.svg">
 </p style = "margin-bottom: 2rem;">
 
 ---
 
-[![Release](https://img.shields.io/github/v/release/fpgmaas/cookiecutter-poetry)](https://pypi.org/project/cookiecutter-poetry/)
-[![Build status](https://img.shields.io/github/actions/workflow/status/fpgmaas/cookiecutter-poetry/main.yml?branch=main)](https://github.com/fpgmaas/cookiecutter-poetry/actions/workflows/main.yml?query=branch%3Amain)
+[![Release](https://img.shields.io/github/v/release/iamgrewal/cookiecutter-poetry)](https://pypi.org/project/cookiecutter-poetry/)
+[![Build status](https://img.shields.io/github/actions/workflow/status/iamgrewal/cookiecutter-poetry/main.yml?branch=main)](https://github.com/fpgmaas/cookiecutter-poetry/actions/workflows/main.yml?query=branch%3Amain)
 [![Supported Python versions](https://img.shields.io/pypi/pyversions/cookiecutter-poetry)](https://pypi.org/project/cookiecutter-poetry/)
-[![Docs](https://img.shields.io/badge/docs-gh--pages-blue)](https://fpgmaas.github.io/cookiecutter-poetry/)
+[![Docs](https://img.shields.io/badge/docs-gh--pages-blue)](https://iamgrewal.github.io/cookiecutter-poetry/)
 [![License](https://img.shields.io/github/license/fpgmaas/cookiecutter-poetry)](https://img.shields.io/github/license/fpgmaas/cookiecutter-poetry)
 
 This is a modern Cookiecutter template that can be used to initiate a Python project with all the necessary tools for development, testing, and deployment. It supports the following features:
@@ -26,7 +26,7 @@ This is a modern Cookiecutter template that can be used to initiate a Python pro
 ---
 
 <p align="center">
-  <a href="https://fpgmaas.github.io/cookiecutter-poetry/">Documentation</a> - <a href="https://github.com/fpgmaas/cookiecutter-poetry-example">Example</a> -
+  <a href="https://iamgrewal.github.io/cookiecutter-poetry/">Documentation</a> - <a href="https://github.com/iamgrewal/cookiecutter-poetry-example">Example</a> -
   <a href="https://pypi.org/project/cookiecutter-poetry/">PyPI</a>
 </p>
 
@@ -47,7 +47,7 @@ Github repository to the `cookiecutter` command:
 
 ```bash
 pip install cookiecutter
-cookiecutter https://github.com/fpgmaas/cookiecutter-poetry.git
+cookiecutter https://github.com/iamgrewal/cookiecutter-poetry.git
 ```
 
 Create a repository on GitHub, and then run the following commands, replacing `<project-name>`, with the name that you gave the Github repository and
@@ -73,10 +73,10 @@ pipeline will be triggered when you open a pull request, merge to main,
 or when you create a new release.
 
 To finalize the set-up for publishing to PyPI or Artifactory, see
-[here](https://fpgmaas.github.io/cookiecutter-poetry/features/publishing/#set-up-for-pypi).
+[here](https://iamgrewal.github.io/cookiecutter-poetry/features/publishing/#set-up-for-pypi).
 For activating the automatic documentation with MkDocs, see
-[here](https://fpgmaas.github.io/cookiecutter-poetry/features/mkdocs/#enabling-the-documentation-on-github).
-To enable the code coverage reports, see [here](https://fpgmaas.github.io/cookiecutter-poetry/features/codecov/).
+[here](https://iamgrewal.github.io/cookiecutter-poetry/features/mkdocs/#enabling-the-documentation-on-github).
+To enable the code coverage reports, see [here](https://iamgrewal.github.io/cookiecutter-poetry/features/codecov/).
 
 ## Acknowledgements
 
